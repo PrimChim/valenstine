@@ -17,13 +17,21 @@ if (yes_button) {
     for (let i = 0; i < 10; i++) {
       setTimeout(function() {
         let img = document.createElement('img');
+        let img1 = document.createElement('img');
         img.src = './giphy.gif';
+        img1.src = './giphy1.gif';
         img.style.position = 'absolute';
         img.style.top = `${Math.random() * 100}vh`;
         img.style.left = `${Math.random() * 100}vw`;
         img.style.width = '300px';
         img.style.height = '300px';
+        img1.style.position = 'absolute';
+        img1.style.top = `${Math.random() * 100}vh`;
+        img1.style.left = `${Math.random() * 100}vw`;
+        img1.style.width = '300px';
+        img1.style.height = '300px';
         document.body.appendChild(img);
+        document.body.appendChild(img1);
       }, i * 1000);
     }
 });
