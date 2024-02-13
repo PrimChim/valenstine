@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#yes{
+    color: rgb(20, 20, 20);
+    background-color: palevioletred;
+}
+
+#no{
+    color: rgb(20, 20, 20);
+    background-color: lightblue;
+}
